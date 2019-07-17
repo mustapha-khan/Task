@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.my-10 {
+  margin-top: 10px !important;
+}
+
+
+#side-menu{
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+
+}
+
+
+.ui.menu#side-menu a.item{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+  .ui.menu#side-menu div.item:hover, .ui.menu#side-menu a.active {
+  background-color: #555;
+  color: white;
+}
+
+.main{
+margin-left:20%;
+height:100%;
+}
+
